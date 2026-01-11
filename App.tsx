@@ -311,7 +311,7 @@ const App: React.FC = () => {
                     <div className="grid grid-cols-2 gap-3">
                       <div className="p-3 bg-black/30 rounded border border-slate-800/50">
                         <h4 className="text-[9px] uppercase font-bold text-slate-600 mb-1 tracking-widest">OWNERSHIP</h4>
-                        <p className="text-[10px] text-dark grey-500 font-bold leading-relaxed">{publicData.ownership}</p>
+                        <p className="text-[10px] text-darkgrey-500 font-bold leading-relaxed">{publicData.ownership}</p>
                       </div>
                       <div className="p-3 bg-black/30 rounded border border-slate-800/50">
                         <h4 className="text-[9px] uppercase font-bold text-slate-600 mb-1 tracking-widest">ACTION</h4>
