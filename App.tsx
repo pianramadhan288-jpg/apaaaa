@@ -159,7 +159,7 @@ const App: React.FC = () => {
             </div>
           </div>
           <h1 className="text-2xl md:text-4xl font-bold tracking-tight text-white mb-2 uppercase condensed">
-            Ve ' larc <span className="text-cyan-500">Nih bosss</span>
+            Ve ' larc <span className="text-cyan-500">Analyzer</span>
           </h1>
           <p className="text-slate-500 text-[10px] md:text-xs font-medium tracking-widest uppercase max-w-[280px] md:max-w-none leading-relaxed">
             Analisis Saham Berbasis Data & Intelegensi
@@ -311,7 +311,7 @@ const App: React.FC = () => {
                     <div className="grid grid-cols-2 gap-3">
                       <div className="p-3 bg-black/30 rounded border border-slate-800/50">
                         <h4 className="text-[9px] uppercase font-bold text-slate-600 mb-1 tracking-widest">OWNERSHIP</h4>
-                        <p className="text-[10px] text-cyan-500 font-bold leading-relaxed">{publicData.ownership}</p>
+                        <p className="text-[10px] text-dark grey-500 font-bold leading-relaxed">{publicData.ownership}</p>
                       </div>
                       <div className="p-3 bg-black/30 rounded border border-slate-800/50">
                         <h4 className="text-[9px] uppercase font-bold text-slate-600 mb-1 tracking-widest">ACTION</h4>
