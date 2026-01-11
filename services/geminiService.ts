@@ -92,11 +92,9 @@ export async function performDeepReasoning(
 
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-3-pro-preview",
-      contents: prompt,
-      config: {
-        thinkingConfig: { thinkingBudget: 4000 }
-      }
+      model: "gemini-3-flash-preview", // DIUBAH DARI PRO KE FLASH
+      contents: prompt
+      // thinkingConfig dihapus karena tidak relevan
     });
 
     return (response.text || "").replace(/[#*]/g, '');
