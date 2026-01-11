@@ -6,7 +6,7 @@ import { fetchPublicData, performDeepReasoning } from './services/geminiService'
 
 // --- PERUBAHAN KRUSIAL ---
 // Ganti string di bawah ini dengan API Key Gemini Anda yang asli.
-const API_KEY = "AIzaSyBwz9kUStSyK3y8oxahBLBikpRaLBmGjA8"; 
+const API_KEY = "AIzaSyB1cND8VtVNuibYV3ktMaFjTy_vqInBHmA"; 
 // -------------------------
 
 const DISCLAIMER_VARIANTS = [
