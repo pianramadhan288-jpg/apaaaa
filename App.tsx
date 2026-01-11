@@ -159,7 +159,7 @@ const App: React.FC = () => {
             </div>
           </div>
           <h1 className="text-2xl md:text-4xl font-bold tracking-tight text-white mb-2 uppercase condensed">
-            Ve ' larc <span className="text-cyan-500">Analyzer</span>
+            Ve ' larc <span className="text-cyan-500">Nih bosss</span>
           </h1>
           <p className="text-slate-500 text-[10px] md:text-xs font-medium tracking-widest uppercase max-w-[280px] md:max-w-none leading-relaxed">
             Analisis Saham Berbasis Data & Intelegensi
